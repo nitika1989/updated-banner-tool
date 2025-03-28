@@ -1,5 +1,7 @@
 MediaWiki Banner Creation Tool
+
 📌 Project Overview
+
 The MediaWiki Banner Creation Tool is an interactive web application that allows users to create and customize banners with various styling options. Users can personalize their banners in real-time by modifying:
 
 ✅ Background color
