@@ -1,0 +1,28 @@
+.banner-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 90%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .banner-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .banner-form input, 
+  .banner-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
