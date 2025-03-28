@@ -45,7 +45,7 @@ Git & GitHub	Version control and repository hosting
 
 
 🔹 Clone the Repository
-git clone https://github.com/yourusername/mediawiki-banner-tool.git
+git clone https://github.com/nitika1989/updated-banner-tool.git
 cd mediawiki-banner-tool
 🔹 Install Dependencies
 npm install
