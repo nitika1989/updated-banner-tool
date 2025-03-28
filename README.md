@@ -1,106 +1,74 @@
-MediaWiki Banner Creation Tool
+# 📌 MediaWiki Banner Creation Tool
 
-📌 Project Overview
+## 📖 Project Overview
+The **MediaWiki Banner Creation Tool** is an interactive web application that enables users to create and customize banners in real-time. It provides an intuitive UI where users can modify various banner attributes such as text, colors, font styles, alignment, dimensions, and even upload images. The final customized banner can be downloaded as an image.
 
-The MediaWiki Banner Creation Tool is an interactive web application that allows users to create and customize banners with various styling options. Users can personalize their banners in real-time by modifying:
+## 🎯 Features
+- ✅ **Live Preview** – Instantly see changes on the banner.
+- ✅ **Background & Text Customization** – Change colors dynamically.
+- ✅ **Font & Text Alignment** – Choose from multiple fonts and adjust text positioning.
+- ✅ **Size Adjustments** – Modify banner width, height, and border-radius.
+- ✅ **Image Upload** – Add custom images inside the banner.
+- ✅ **Download as Image** – Save the final banner as a `.png` file.
 
-✅ Background color
-✅ Text color, font, and alignment
-✅ Banner width, height, and border-radius
-✅ Image upload feature for custom banners
-✅ Font styles (bold, italic, etc.)
-✅ Downloadable banner as an image
+## 🛠 Technologies Used
+| Technology  | Purpose  |
+|-------------|---------|
+| **React.js** | Component-based frontend framework |
+| **JavaScript (ES6+)** | Manages event listeners and updates dynamically |
+| **CSS3** | Styling for layout and responsiveness |
+| **Framer Motion** | Smooth animations and transitions |
+| **html2canvas** | Captures banner as an image for downloading |
+| **Git & GitHub** | Version control and repository hosting |
 
-This tool provides a smooth and interactive experience with live previews, dynamic UI changes, and an easy-to-use form interface.
+## 🚀 Getting Started
 
-🎯 Features
-🔹 Customization Options
-Live Preview – Changes appear instantly on the banner.
+### 1️⃣ Installation & Setup
 
-Background & Text Customization – Users can select colors using color pickers.
+#### 🔹 Prerequisites
+Ensure you have **Node.js** and **npm** installed. If not, download them from [Node.js official website](https://nodejs.org/).
 
-Font Selection – Choose from different font styles.
-
-Text Alignment – Left, Center, and Right alignment options.
-
-Size Customization – Adjust width, height, and border-radius using dropdowns.
-
-Image Upload – Users can upload and display an image on the banner.
-
-Download as Image – Export the customized banner as a .png file.
-
-🔹 Interactive UI
-Smooth Animations – UI elements transition seamlessly.
-
-Responsive Design – The tool adapts to all screen sizes.
-
-🛠 Technologies Used
-Technology	Purpose
-React.js	Component-based frontend framework
-JavaScript (ES6+)	Handles event listeners and dynamic updates
-CSS3	Custom styling for layout and responsiveness
-Framer Motion	Smooth animations and transitions
-html2canvas	Converts the banner to an image for download
-Git & GitHub	Version control and repository hosting
-🚀 Getting Started
-1️⃣ Installation & Setup
-
-
-🔹 Clone the Repository
-git clone https://github.com/nitika1989/updated-banner-tool.git
+#### 🔹 Clone the Repository
+```bash
+git clone https://github.com/yourusername/mediawiki-banner-tool.git
 cd mediawiki-banner-tool
-🔹 Install Dependencies
-npm install
-🔹 Start the Development Server
-npm start
-The app will be available at http://localhost:3000.
 
-📂 Project Structure
 
-mediawiki-banner-tool/
-│── public/
-│── src/
-│   ├── components/
-│   │   ├── Banner.js  # Banner customization component
-│   │  
-│   ├── styles/
-│   │   ├── banner.css  # Styling for banner and UI
-│   ├── App.js  # Main application component
-│   ├── index.js  # Entry point of React app
-│── .gitignore
-│── package.json
-│── README.md  # This file
-🎨 How It Works
+How It Works
+
 2️⃣ Customizing the Banner
-Background Color: Choose any color for the banner background.
+Background Color: Change the banner's background.
 
-Text Color & Font: Change text color and choose from multiple fonts.
+Text Color & Font: Modify text color and choose from different font styles.
 
-Text Alignment: Left, center, or right alignment.
+Text Alignment: Set text to left, center, or right.
 
-Banner Size & Border Radius: Adjust width, height, and border shape.
+Banner Size & Border Radius: Adjust width, height, and border curvature.
 
-Upload an Image: Add an image inside the banner.
+Upload an Image: Insert an image into the banner.
 
 3️⃣ Live Preview
-Any changes made in the form reflect immediately in the banner.
+Any modifications made in the form reflect instantly on the banner.
 
 4️⃣ Downloading the Banner
-Clicking the "Download Banner" button will generate and download a .png image of the customized banner.
-
- Challenges & How I Overcame Them
+Clicking the "Download Banner" button generates and saves a .png image.
+Challenges & How I Overcame Them
 1️⃣ Tailwind CSS Issues → Replaced it with pure CSS for styling.
 2️⃣ State Management Complexity → Used React's useState to efficiently handle multiple properties.
 3️⃣ Image Upload Handling → Used URL.createObjectURL(file) to dynamically display images.
 4️⃣ Download Banner Issues → Ensured images load fully before capturing them with html2canvas.
 
 📌 Future Improvements
-Add drag-and-drop image upload.
+🔜 Drag-and-drop image upload
 
-Allow users to save and reuse templates.
+🔜 Save and reuse banner templates
 
-Support multiple file formats (JPG, SVG, etc.).
+🔜 Multiple file format support (JPG, SVG, etc.)
 
 📞 Contact & Feedback
 I’d love to hear your feedback! Feel free to reach out. 🚀
+
+This README.md provides all necessary details for mentors
+
+
 
