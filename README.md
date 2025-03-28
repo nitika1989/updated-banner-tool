@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+MediaWiki Banner Creation Tool
+📌 Project Overview
+The MediaWiki Banner Creation Tool is an interactive web application that allows users to create and customize banners with various styling options. Users can personalize their banners in real-time by modifying:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✅ Background color
+✅ Text color, font, and alignment
+✅ Banner width, height, and border-radius
+✅ Image upload feature for custom banners
+✅ Font styles (bold, italic, etc.)
+✅ Downloadable banner as an image
 
-## Available Scripts
+This tool provides a smooth and interactive experience with live previews, dynamic UI changes, and an easy-to-use form interface.
 
-In the project directory, you can run:
+🎯 Features
+🔹 Customization Options
+Live Preview – Changes appear instantly on the banner.
 
-### `npm start`
+Background & Text Customization – Users can select colors using color pickers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Font Selection – Choose from different font styles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Text Alignment – Left, Center, and Right alignment options.
 
-### `npm test`
+Size Customization – Adjust width, height, and border-radius using dropdowns.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Image Upload – Users can upload and display an image on the banner.
 
-### `npm run build`
+Download as Image – Export the customized banner as a .png file.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔹 Interactive UI
+Smooth Animations – UI elements transition seamlessly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Responsive Design – The tool adapts to all screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🛠 Technologies Used
+Technology	Purpose
+React.js	Component-based frontend framework
+JavaScript (ES6+)	Handles event listeners and dynamic updates
+CSS3	Custom styling for layout and responsiveness
+Framer Motion	Smooth animations and transitions
+html2canvas	Converts the banner to an image for download
+Git & GitHub	Version control and repository hosting
+🚀 Getting Started
+1️⃣ Installation & Setup
+🔹 Prerequisites
+Ensure you have Node.js and npm installed. If not, download them from Node.js official website.
 
-### `npm run eject`
+🔹 Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/mediawiki-banner-tool.git
+cd mediawiki-banner-tool
+🔹 Install Dependencies
+bash
+Copy
+Edit
+npm install
+🔹 Start the Development Server
+bash
+Copy
+Edit
+npm start
+The app will be available at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📂 Project Structure
+php
+Copy
+Edit
+mediawiki-banner-tool/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── Banner.js  # Banner customization component
+│   │   ├── BannerForm.js  # Form to edit banner settings
+│   ├── styles/
+│   │   ├── banner.css  # Styling for banner and UI
+│   ├── App.js  # Main application component
+│   ├── index.js  # Entry point of React app
+│── .gitignore
+│── package.json
+│── README.md  # This file
+🎨 How It Works
+2️⃣ Customizing the Banner
+Background Color: Choose any color for the banner background.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Text Color & Font: Change text color and choose from multiple fonts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Text Alignment: Left, center, or right alignment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Banner Size & Border Radius: Adjust width, height, and border shape.
 
-## Learn More
+Upload an Image: Add an image inside the banner.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3️⃣ Live Preview
+Any changes made in the form reflect immediately in the banner.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4️⃣ Downloading the Banner
+Clicking the "Download Banner" button will generate and download a .png image of the customized banner.
+ Challenges & How I Overcame Them
+1️⃣ Tailwind CSS Issues → Replaced it with pure CSS for styling.
+2️⃣ State Management Complexity → Used React's useState to efficiently handle multiple properties.
+3️⃣ Image Upload Handling → Used URL.createObjectURL(file) to dynamically display images.
+4️⃣ Download Banner Issues → Ensured images load fully before capturing them with html2canvas.
 
-### Code Splitting
+📌 Future Improvements
+Add drag-and-drop image upload.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Allow users to save and reuse templates.
 
-### Analyzing the Bundle Size
+Support multiple file formats (JPG, SVG, etc.).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📞 Contact & Feedback
+I’d love to hear your feedback! Feel free to reach out. 🚀
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
