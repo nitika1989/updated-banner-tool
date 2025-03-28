@@ -26,11 +26,11 @@ The **MediaWiki Banner Creation Tool** is an interactive web application that en
 ### 1️⃣ Installation & Setup
 
 #### 🔹 Prerequisites
-Ensure you have **Node.js** and **npm** installed. If not, download them from [Node.js official website](https://nodejs.org/).
+ **Node.js** and **npm** installed.
 
 #### 🔹 Clone the Repository
 ```bash
-git clone https://github.com/yourusername/mediawiki-banner-tool.git
+git clone \https://github.com/nitika1989/updated-banner-tool.git
 cd mediawiki-banner-tool
 
 
