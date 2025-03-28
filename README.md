@@ -42,37 +42,25 @@ html2canvas	Converts the banner to an image for download
 Git & GitHub	Version control and repository hosting
 🚀 Getting Started
 1️⃣ Installation & Setup
-🔹 Prerequisites
-Ensure you have Node.js and npm installed. If not, download them from Node.js official website.
+
 
 🔹 Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/mediawiki-banner-tool.git
 cd mediawiki-banner-tool
 🔹 Install Dependencies
-bash
-Copy
-Edit
 npm install
 🔹 Start the Development Server
-bash
-Copy
-Edit
 npm start
 The app will be available at http://localhost:3000.
 
 📂 Project Structure
-php
-Copy
-Edit
+
 mediawiki-banner-tool/
 │── public/
 │── src/
 │   ├── components/
 │   │   ├── Banner.js  # Banner customization component
-│   │   ├── BannerForm.js  # Form to edit banner settings
+│   │  
 │   ├── styles/
 │   │   ├── banner.css  # Styling for banner and UI
 │   ├── App.js  # Main application component
@@ -97,6 +85,7 @@ Any changes made in the form reflect immediately in the banner.
 
 4️⃣ Downloading the Banner
 Clicking the "Download Banner" button will generate and download a .png image of the customized banner.
+
  Challenges & How I Overcame Them
 1️⃣ Tailwind CSS Issues → Replaced it with pure CSS for styling.
 2️⃣ State Management Complexity → Used React's useState to efficiently handle multiple properties.
